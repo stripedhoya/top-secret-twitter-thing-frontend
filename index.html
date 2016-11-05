@@ -16,9 +16,9 @@
 
          <!-- CSS
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-         <link rel="stylesheet" href="/css/skeleton/normalize.css">
-         <link rel="stylesheet" href="/css/skeleton/skeleton.css">
-         <link rel="stylesheet" href="css/custom.css">
+         <link rel="stylesheet" href="/public/css/skeleton/normalize.css">
+         <link rel="stylesheet" href="/public/css/skeleton/skeleton.css">
+         <link rel="stylesheet" href="/public/css/custom.css">
 
          <!-- Scripts
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -26,13 +26,15 @@
          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
     </head>
     <body>
-        <section class="container" id="main-container">
-            <div class="row">
-                <div class="twelve columns" ng-repeat="alert in alerts">
-                    {{alert}}
+        <section id="main-container">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns" ng-repeat="alert in alerts">
+                        {{alert}}
+                    </div>
                 </div>
             </div>
         </section>
     </body>
-    <script src="/js/main.js"></script>
+    <script src="/public/js/main.js"></script>
 </html>
