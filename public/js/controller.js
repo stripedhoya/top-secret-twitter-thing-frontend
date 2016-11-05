@@ -1,6 +1,6 @@
-var secretApp = angular.module('myApp', []);
+var secretApp = angular.module('secretApp', []);
 
-secretApp.controller('GreetingController', ['$scope', '$http', function($scope,
+secretApp.controller('alerter', ['$scope', '$http', function($scope,
     $http) {
-    $scope.alerts = [];
+    $scope.alerts = ["bannas", "apples", "oranges"];
 }]);

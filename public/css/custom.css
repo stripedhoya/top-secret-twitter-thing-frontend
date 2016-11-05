@@ -8,6 +8,25 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27bcc4', endColorstr='#e5da7b',GradientType=0 ); /* IE6-9 */
 }
 .container{
-    width: 66%;
-    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.panel{
+    background: #eee;
+    padding: 10px;
+    box-shadow: 0 2px 4px;
+    margin-bottom: 15px;
+}
+
+.header{
+
+    text-align: center;
+}
+
+header.header > h1{
+    font-size: 3rem !important;
+    margin-bottom: 0;
 }
